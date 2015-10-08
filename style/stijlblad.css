@@ -1,0 +1,29 @@
+body{
+    font-family: arial;
+}
+h2{
+    color: red;
+    margin-left: 20px;
+}
+
+.onderlijn{
+    text-decoration: underline;
+}
+
+abbr{
+    color: navy;
+    font-weight: bold;
+}
+
+ol{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+li{
+    display: inline;
+}
