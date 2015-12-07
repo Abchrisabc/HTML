@@ -1,0 +1,48 @@
+body{
+    font-family: arial;
+    background: silver;
+    font-size: 20px;
+}
+header{
+    background: yellow;
+}
+
+#logo{
+    background: purple;
+    height: 100px;
+}
+
+#menubalk{
+    background: orange;
+}
+
+.rechts{
+    float: right;
+}
+
+aside{
+    background: tomato;
+    float: right;
+    width: 200px;
+}
+
+nav{
+    background: green;
+    float: left;
+    width: 200px;
+}
+section{
+    background: red;
+    margin-left: 200px;
+}
+article{
+    background: white;
+    clear: right;
+}
+footer{
+    background: blue;
+    clear: both;
+}
+.clearright{
+	clear: right;
+}

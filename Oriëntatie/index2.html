@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Faking Textarea on Typing</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="http://www.javascriptbank.com" />
+    <meta name="distribution" content="Global" />
+    <meta name="copyright" content="JavaScriptBank.com" />
+    <script language="JavaScript">
+        var a=new Array(),n=""
+        a[1]='L';a[2]='U';a[3]='K';a[4]='T';a[5]=' ';a[6]='N';a[7]='I';a[8]='E';a[9]='T';a[10]=' ';a[11]='H';a[12]='E';a[13]=' ';a[14]='?';a[15]=' ';
+        function one(){
+            t=document.f.txt.value
+            j= t.length
+            if(j>0){
+                for(var i=1;i<=j;i++){
+                    n=n+a[i]
+                    if(i==15){
+                        document.f.txt.value=""
+                        n=""
+                    }
+                }
+            }
+            document.f.txt.value=n
+            n=""
+            setTimeout("one()",1)
+        }
+        function on(){
+            one()
+        }
+    </script>
+</head>
+<body onload="on()">
+<center>
+    <h2>Type langzaam aub!</h2>
+    <form name="f">
+        <textarea name="txt" cols="20" rows="5">
+        </textarea>
+    </form>
+</center>
+</body>
+</html>
