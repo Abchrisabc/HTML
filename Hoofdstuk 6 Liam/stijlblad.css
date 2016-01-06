@@ -1,18 +1,36 @@
-Body(
-	font-family:Arial;
-	background:silver;)
-Header(background:yellow;)
+Body {
+    font-family: Arial;
+    background: silver;
+}
 
-#logo(background:purple;)
+Header {
+    background: yellow;
+}
 
-#menubalk(background:orange;)
+#logo {
+    background: purple;
+}
 
-aside(background:tomato;)
+#menubalk {
+    background: orange;
+}
 
-nav(background:green;)
+aside {
+    background: tomato;
+}
 
-section(background:red;)
+nav {
+    background: green;
+}
 
-article(background:white;)
+section {
+    background: red;
+}
 
-footer(background:blue;)
+article {
+    background: white;
+}
+
+footer {
+    background: blue;
+}
