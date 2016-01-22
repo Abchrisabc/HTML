@@ -1,0 +1,105 @@
+body{
+    background: silver;
+    background: url("http://images3.alphacoders.com/241/241475.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header{
+    background: yellow;
+}
+
+#logo{
+    background: purple;
+    height: 100px;
+    background: url("https://media.alienwarearena.com/media/blade-and-soul-logo-banner-1280x160.jpg") center;
+    padding: 20px 0px 0px 50px;
+}
+
+#menubalk{
+    background: orange;
+    height:30px;
+    padding: 15px 5px 5px 10px;
+    border-bottom-right-radius: 20px;
+}
+
+form.rechts{
+    margin-right:10px;
+}
+
+.rechts{
+    float: right;
+}
+
+aside{
+    background: tomato;
+    float: right;
+    width: 320px;
+    padding:10px;
+}
+
+#nav{
+    float:left;
+    margin-top:10px;
+}
+nav{
+    background: darkgoldenrod;
+    width: 200px;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+section{
+
+    margin-left: 250px;
+    padding:10px;
+    margin-top:10px;
+}
+article{
+    background: lightblue;
+    padding:10px;
+    margin-bottom:10px;
+}
+footer{
+    background: #5555FD;
+    clear: both;
+    margin-top:10px;
+    text-align:center;
+}
+.clearright{
+	clear: right;
+}
+
+.clearboth{
+    clear: both;
+}
+
+#menubalk ul{
+    list-style-type: none;
+    display: inline;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#menubalk li{
+    display: inline;
+    margin-left: 0px;
+}
+
+#wrapper{
+    margin: 0px auto 0px auto;
+    min-width:780px;
+    max-width:1000px
+}
+
+.dikkerand{
+    border: 10px solid #DC8100;
+    border-radius: 30px 30px 30px 0px;
+}
+.rondehoeken{
+    border-radius:20px 20px 20px 0px;
+}
+.rondehoekenlogo{
+    border-radius:20px 20px 0px 0px;
+}
